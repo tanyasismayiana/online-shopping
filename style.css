@@ -1,0 +1,296 @@
+body{
+    background-color:#FFFFFF ;
+}
+
+.navigation{
+    background-color:#F2F1F2;
+    display: flex;
+
+}
+.navbar a{
+    margin-left: 100px;
+    margin-top: 1px;
+
+}
+.navbar{
+    margin-top: 30px;
+    display: flex;
+}
+.navbar h1{
+    margin-top: -2px;
+}
+
+
+.sectionOne{
+    display: flex;
+    height: 400px;
+}
+.words1{
+    margin-left:100px ;
+    margin-top: 60px;
+    
+
+}
+.words1 p{
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+.but {
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 170px;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+
+
+}
+.image{
+    margin-left: 150px;
+
+}
+.sectiontwo{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.bestElectronics{
+    height: 350px;
+    width: 45%;
+    display: flex;
+    background-color:#F2F1F2 ;
+    margin-left: 45px;
+    margin-top: 40px;
+
+}
+
+.bestFurniture{
+    height: 350px;
+    width: 45%;
+    display: flex;
+    background-color: #F2F1F2;
+    margin-left: 35px;
+    margin-top: 40px;
+
+
+}
+.bestElectPic{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.elec{
+    padding: 40px;
+}
+
+.bestElec{
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 12px;
+    width: 120px;
+    background-color: #FFFFFF;
+}
+
+.elec h1{
+    font-size: 25px;
+}
+
+.elec p{
+    font-size: 18px;
+}
+
+.cards{
+    display: flex;
+    margin-left:  38px;
+
+}
+.card{
+    height: 280px;
+    width: 260px;
+    background-color: #F2F1F2;
+    margin: 30px;
+    
+}
+.card-body {
+    margin-left: 30px;
+}
+
+.allProduct h1{
+    margin: 70px;
+}
+
+.allProduct2{
+    display: flex;
+    margin-left:  40px;
+    width: 96%;
+}
+.line{
+    margin-top: 40px;
+    margin-left: 38px; 
+
+}
+.but2{
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 170px;
+    margin-left: 40px;
+    background-color: #FFFFFF;
+
+}
+.showMore{
+    display: flex;
+    margin-left: 28px;
+}
+.dealFurniture{
+    background-color: #D1E6E5;
+    display: flex;
+    margin-top: 120px;
+}
+
+.image1{
+    margin-top: -110px;
+}
+
+.deals{
+    display: flex;
+    width: 100%;
+    
+    margin-top: 30px;
+    background-color:#F2F1F2 
+    
+}
+.dealHoulder{
+    margin-left: 150px;
+
+}
+
+
+ .row{
+    display: flex;
+    margin-left: -50px;
+   
+    
+   
+ }
+.col{
+    margin-top: 50px;
+}
+
+ .sidePic{
+    margin-left: 250px;
+ }
+/* .carded{
+    background-color: #F2F1F2;
+} */
+
+.coll{
+    margin-top: 100px;
+}
+
+.col2{
+    margin-left: 50px;
+}
+.colll{
+    margin-top: 130px;
+}
+
+.dealRow{
+    display: flex;
+}
+
+.card10{
+    height: 280px;
+    width: 260px;
+    background-color: #F2F1F2;
+    margin: 30px;
+}
+
+.card10 img{
+    margin-left: 50px;
+}
+
+.words3{
+    height: 280px;
+    width: 260px;
+    margin: 30px;
+    
+}
+.words3 p{
+    font-size: 20px;
+}
+.but22{
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 13px;
+    width: 170px;
+    background-color: #FFFFFF;
+
+}
+
+.contactUs{
+    display: flex;
+    background-color: #D1E6E5;
+    width: 1100px;
+    height: 300px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 120px;
+
+}
+.but33{
+    padding: 10px;
+    width: 270px;
+    height: 50px;
+    margin-left: 20px;
+    
+}
+
+.words6{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top:20px ;
+}
+.words6 h1{
+  font-size: 35px;
+}
+
+.words6 p{
+    font-size: 25px;
+}
+  
+.footer{
+    display: flex;
+    background-color: #D1E6E5;
+    margin-top: 100px;
+    height: 300px;
+}
+.name{
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.callUs{
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.name h1{
+    font-size: 30px;
+}
+
+.callUs img{
+    margin-top: 10px;
+}
+
+
+
+
