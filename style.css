@@ -64,9 +64,10 @@ body{
     color: var(--tertiary-color);
     font-weight: 600;
 }
-.hero-title p{
-    font-size: 30px;
-    line-height: 40px;
+.hero-title h1{
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: .2em;
 
 }
 .hero-title .pri-button {
