@@ -200,13 +200,26 @@ body{
     display: flex;
     justify-content: space-between;
     background-color:var(--navigation-color)
+
+ 
 }
 
 .section-deals .deal-wrapper {
     display: flex;
     margin-bottom: 50px;
     margin-left: 100px;
+
 }
+
+.section-deals .deal-wrapper .left-col-deal {
+    flex-direction: column;
+}
+
+.section-deals .deal-wrapper .right-col-deal {
+    flex-direction: column;
+    margin-left: 200px;
+}
+
 
 .section-deals .deal-wrapper .left-col-deal {
     flex-direction: column;
