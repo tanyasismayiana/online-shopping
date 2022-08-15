@@ -99,7 +99,7 @@ body{
     height: 350px;
     width: 45%;
     display: flex;
-    background-color:#F2F1F2 ;
+    background-color:var(--navigation-color) ;
     margin-left: 45px;
     margin-top: 40px;
 
@@ -112,7 +112,7 @@ body{
     height: 350px;
     width: 45%;
     display: flex;
-    background-color: #F2F1F2;
+    background-color: var(--navigation-color);
     margin-left: 35px;
     margin-top: 40px;
 }
@@ -142,7 +142,7 @@ body{
 .card{
     height: 280px;
     width: 260px;
-    background-color: #F2F1F2;
+    background-color: var(--navigation-color);
     margin: 30px;
     padding: 10px;
     border-radius: 15px;
@@ -200,14 +200,27 @@ body{
     padding-top:20px;
     display: flex;
     justify-content: space-between;
-    background-color:#F2F1F2 
+    background-color:var(--navigation-color)
+
+ 
 }
 
 .section-deals .deal-wrapper {
     display: flex;
     margin-bottom: 50px;
     margin-left: 100px;
+
 }
+
+.section-deals .deal-wrapper .left-col-deal {
+    flex-direction: column;
+}
+
+.section-deals .deal-wrapper .right-col-deal {
+    flex-direction: column;
+    margin-left: 200px;
+}
+
 
 .section-deals .deal-wrapper .left-col-deal {
     flex-direction: column;
