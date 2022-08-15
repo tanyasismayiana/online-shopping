@@ -246,13 +246,6 @@ body{
     margin-bottom: 30px;
  }
 
-/* .col{
-    margin-top: 50px;
-} */
-
- /* .deal-right{
-    margin-left: 250px;
- } */
 
 .col2{
     margin-left: 50px;
@@ -263,9 +256,7 @@ body{
 
 .section-deal-below{
     display: flex;
-    /* align-items: stretch;
-    flex-wrap: wrap;
-    margin-left: 20px; */
+   
 }
 
 .card10{
@@ -281,9 +272,9 @@ body{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.card10 img{
+/* .card10 img{
     margin-left: 50px;
-}
+} */
 
 .words3{
     height: 280px;
@@ -309,7 +300,7 @@ body{
     width: 1100px;
     height: 300px;
     margin-left: 130px;
-    margin-top: 50px;
+    margin-bottom: 100px;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     
@@ -319,7 +310,6 @@ body{
     margin-left: 100px;
     font-size: 20px;
     margin-top:20px ;
-
 
 }
 
@@ -338,36 +328,42 @@ body{
     
 }
 
-
-.words6 h1{
-  font-size: 35px;
-}
-
-.words6 p{
-    font-size: 25px;
-}
   
 .footer{
     display: flex;
     background-color: #D1E6E5;
-    margin-top: 100px;
     height: 300px;
+    padding: 30px;
+    align-content: space-between;
+    flex-flow: column wrap;
+
 }
-.name{
-    margin-left: 200px;
+.footer .left-col-footer{
+   
     font-size: 25px;
 }
 
-.callUs{
-    margin-left: 300px;
+.footer .right-col-footer{
     font-size: 20px;
+
 }
 
-.name h1{
+.footer .right-col-footer ul li{
+    display: flex;
+    align-items: center;
+    
+
+ }
+
+ .footer .right-col-footer ul li.img{
+    margin-right: 20px;
+ }
+
+.left-col-footer h1{
     font-size: 30px;
 }
 
-.callUs img{
+.right-col-footer img{
     margin-top: 10px;
 }
 
@@ -379,6 +375,7 @@ body{
     background-color: var(--primary-color);
    
 } 
+
 
 
 
